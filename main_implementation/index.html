@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualization Methods</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<button onclick="fetchData()">Get Data</button>
+	
+	<h3>Controls</h3>
+	<label for="y-attribute">Y attribute:</label> 
+    <select name="y-attribute" id="y-attribute"></select><br>
+	<label for="filter-attribute">Filter attribute:</label> 
+    <select name="filter-attribute" id="filter-attribute"></select>
+	<label for="filter-attribute-value">Filter attribute value:</label>
+	<select name="filter-attribute-value" id="filter-attribute-value"></select><br>	
+	<button id="resetZoom">Reset Zoom</button>
+	<button id="zoomIn">Zoom In</button>
+	<button id="zoomOut">Zoom Out</button>
+	<button id="panLeft">Pan Left</button>
+	<button id="panRight">Pan Right</button>
+
+	<h3>Event Data Visualization</h3>
+	<div id="event_data_viz">
+		<svg id="y-axis_ed"></svg>
+		<div id="plot-container_ed">
+			<svg id="main-plot_ed"></svg>
+		</div>
+		<svg id="legend_ed"></svg>
+	</div>
+	
+	<h3>Alignment Data Visualization</h3>
+	<div id="mocc_viz">
+		<svg id="y-axis_ad"></svg>
+		<div id="plot-container_ad">
+			<svg id="main-plot_ad"></svg>
+		</div>
+		<svg id="legend_ad"></svg>	
+	</div>
+	
+	<!-- Give the input files here -->
+	<script src="../input/single_event/al_one_day_prod_ed.js"></script>
+	<script src="../input/single_event/al_one_day_prod_ad.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>

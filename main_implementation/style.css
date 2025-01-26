@@ -1,0 +1,43 @@
+#event_data_viz, #mocc_viz {
+	display: flex; 				/* line up all children horizontally */
+	align-items: flex-start; 	/* align to the top */
+}
+
+#y-axis_ed, #y-axis_ad {
+	flex-shrink: 0;
+	width: 100px;
+}
+
+#legend_ed, #legend_ad {
+	flex-shrink: 0;
+	width: 200px;
+}
+
+#plot-container_ed, #plot-container_ad {
+	overflow-x: auto; 
+	white-space: nowrap;
+	flex-grow: 1;				/* allow plot container to grow */
+	scrollbar-width: none;
+}
+
+#tooltip_ed, #tooltip_ad {
+	opacity: 0;
+	background-color: white;
+	border: solid;
+	border-width: 1px;
+	border-radius: 3px;
+	padding: 7px;
+	position: absolute;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+::-webkit-scrollbar {
+    width: 0px;  /* for vertical scrollbars */
+    height: 0px; /* for horizontal scrollbars */
+}
+
+.label-line {
+	stroke: gray;
+    stroke-dasharray: 2,2;
+}

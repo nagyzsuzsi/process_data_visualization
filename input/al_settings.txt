@@ -1,0 +1,11 @@
+log file				al_one_day_prod.csv
+model file				al_dpn_model.pnml
+log type				1
+case id					0
+activity				1
+activity instance id	-1
+transaction type		-1
+timestamp 1				2
+timestamp 2				3
+value types				integer;string;datetime;datetime;integer;string;integer;integer;integer;integer;integer
+datetime format			%Y-%m-%d %H:%M:%S.%f
