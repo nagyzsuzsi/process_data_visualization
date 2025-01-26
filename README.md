@@ -1,5 +1,5 @@
 # Overview
-This repository contains the prototpye implementation of the proposed process data visualization methods presented in the paper __*Visualization Methods to Support Real-time Process Monitoring*__ by Zsuzsanna Nagy and Agnes Werner-Stark. The paper is available [here](https://ceur-ws.org/Vol-3628/paper1.pdf).
+This repository contains the prototype implementation of the proposed process data visualization methods presented in the paper __*Visualization Methods to Support Real-time Process Monitoring*__ by Zsuzsanna Nagy and Agnes Werner-Stark. The paper is available [here](https://ceur-ws.org/Vol-3628/paper1.pdf).
 
 # Repository structure
 - [input](input): Contains:
